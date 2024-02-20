@@ -1,0 +1,70 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 50%;
+}
+
+.restart-game-btn {
+  margin-top: 20px;
+}
+.score-game {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+
+  .scoreboard-player,
+  .scoreboard-computer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #fff;
+    padding: 6px 0;
+  }
+
+  .scoreboard-player {
+    background-color: #1777ff;
+  }
+  .scoreboard-computer {
+    background-color: #000;
+  }
+}
+
+.action {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.choice-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+  button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  i {
+    font-size: 150px;
+  }
+}
